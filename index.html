@@ -3,40 +3,56 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
     <title>weather app</title>
   </head>
   <body>
-    <header>
-      <form>
-        <input type="search" placeholder="Enter City..." required />
-        <input type="submit" value="search" />
-      </form>
-    </header>
-    <main>
-      <div>
-        <h1>Paris</h1>
-        <p>
-          Tuesday 14:49 Scattered Clouds
-          <br />
-          Humidity: 66% , Wind: 3.13 km/h
-        </p>
+    <div class="weather-app">
+      <header>
+        <form class="search-form">
+          <input
+            type="search"
+            placeholder="Enter City..."
+            required
+            class="search-form-input"
+          />
+          <input type="submit" value="search" class="search-form-button" />
+        </form>
+      </header>
+      <main>
+        <div class="weather-app-data"></div>
+        <div>
+          <h1 class="weather-app-city">Paris</h1>
+          <p class="weather-app-details">
+            Tuesday 14:49 Scattered Clouds
+            <br />
+            Humidity: 66% , Wind: 3.13 km/h
+          </p>
+        </div>
+        <div class="weather-app-temperature">⛅12&deg;C</div>
       </div>
-      <div>⛅12&deg;C</div>
-    </main>
+      </main>
 
-    <footer>
-      Coded By
-      <a href="https://github.com/LwandisaMasiza" target="_blank"
-        >Lwandisa Masiza</a
-      >, code hosted on
+      <footer>
+        Coded By
+        <a href="https://github.com/LwandisaMasiza" target="_blank"
+          >Lwandisa Masiza</a
+        >, code hosted on
 
-      <a href="https://github.com/LwandisaMasiza/weather-app" target="_blank"
-        >GitHub</a
-      >
-      and website hosted
-      <a href="https://weather-proof.netlify.app/" target="_blank"
-        >on Netlify</a
-      >
-    </footer>
+        <a href="https://github.com/LwandisaMasiza/weather-app" target="_blank"
+          >GitHub</a
+        >
+        and website hosted
+        <a href="https://weather-proof.netlify.app/" target="_blank"
+          >on Netlify</a
+        >
+      </footer>
+    </div>
   </body>
 </html>
