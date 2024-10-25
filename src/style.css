@@ -137,12 +137,14 @@
 }
 .weather-app-temperature {
   font-size: 40px;
-  margin-left: 10px;
+  margin-left: 6px;
   font-weight: bold;
 }
 .weather-app-icon {
   font-size: 20px;
   margin-top: 22px;
+  font-weight: bold;
+  margin-bottom: auto;
 }
 .weather-app-city-unit {
   margin-top: 16px;
