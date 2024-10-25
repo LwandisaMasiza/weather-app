@@ -132,7 +132,7 @@
 .weather-app-details strong {
   color: pink;
 }
-.weather-app-temperature-container {
+.weather-app-container {
   display: flex;
 }
 .weather-app-temperature {
