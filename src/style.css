@@ -136,16 +136,15 @@
   display: flex;
 }
 .weather-app-temperature {
-  font-size: 46px;
-  margin-left: 6px;
+  font-size: 85px;
+  line-height: 88px;
   font-weight: bold;
 }
 .weather-app-icon {
-  font-size: 40px;
-  margin-bottom: auto;
-  font-weight: bold;
+  width: 88px;
+  height: 88px;
 }
 .weather-app-city-unit {
-  margin-top: 16px;
-  font-size: 20px;
+  margin-top: 6px;
+  font-size: 28px;
 }
