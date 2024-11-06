@@ -1,5 +1,5 @@
 .body {
-  background-color: light grey;
+  background-color: #f9f7fe;
   .roboto-thin {
     font-family: "Roboto", sans-serif;
     font-weight: 100;
@@ -81,15 +81,15 @@
   padding: 30px;
 }
 .search-form-input {
-  background-color: light grey;
+  background-color: #f9f7fe;
   border: none;
   border-radius: 6px;
-  width: 60%;
+  width: 80%;
   font-size: 16px;
   padding: 15px 20px;
 }
 .search-form-button {
-  background: light purple;
+  background: #885df1;
   padding: 15px 30px;
   border: none;
   border-radius: 6px;
@@ -98,18 +98,18 @@
   font-size: 16px;
 }
 .header {
-  border-bottom: 1px solid light grey;
+  border-bottom: 1px solid #f9f7fe;
   padding: 0 0 30px 0;
 }
 .footer {
-  border-top: 1px solid light grey;
+  border-top: 1px solid #f9f7fe;
   padding: 30px 0 0 0;
   text-align: center;
-  font-size: 13px;
-  color: rgb(0, 0, 0.6);
+  font-size: 14px;
+  color: rgb(0, 0, 0, 0.6);
 }
 .link-a {
-  color: light purple;
+  color: #885df1;
 }
 .weather-app-data {
   display: flex;
@@ -126,17 +126,17 @@
 .weather-app-details {
   font: size 16px;
   font-weight: 500;
-  line-height: 20px;
+  line-height: 24px;
   color: rgba(39, 33, 66, 0.4);
 }
 .weather-app-details strong {
-  color: pink;
+  color: #f65282;
 }
 .weather-app-container {
   display: flex;
 }
 .weather-app-temperature {
-  font-size: 85px;
+  font-size: 88px;
   line-height: 88px;
   font-weight: bold;
 }
